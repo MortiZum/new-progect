@@ -13,7 +13,6 @@ dis_width = 800
 dis_height = 600
 dis = display.set_mode((dis_width, dis_height))
 display.set_caption('sssssssss змея')
-background = transform.scale(image.load('.jpg'), (800, 600))
 clock = time.Clock()
 snake_block = 10
 snake_speed = 10
@@ -102,5 +101,3 @@ while not game_over:
         clock.tick(snake_speed)
 
 snake_speed
-
-#window.blit(background, (0, 0))
